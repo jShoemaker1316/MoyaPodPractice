@@ -15,6 +15,8 @@ class ViewController: UITableViewController {
     var users = [User]()
     let userProvider = MoyaProvider<UserService>()
 
+    @IBOutlet var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
